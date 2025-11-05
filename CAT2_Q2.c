@@ -1,5 +1,10 @@
 #include <stdio.h>
-
+/*
+Name: Macevady Mac Nganga
+REGISTRATION NUMBER: CT100/G/26121/25
+DESCRIPTION: Program that enters hours worked and hourly wage and calculates the gross pay,tax and
+            net profit and provides them as output
+*/
 int main()
 {
     int hours_worked;
@@ -12,7 +17,7 @@ int main()
 
     printf("Hourly wage?: ");
     scanf("%d",&hourlyWage);
-    if(hours_worked<=0)
+    if(hours_worked<=0 || hourlyWage<=0)
     {
         printf("GO TO WORK");
     }
@@ -44,4 +49,5 @@ int main()
     printf("%d\n",net);
 
 
+return 0;
 }
